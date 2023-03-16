@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { nanoid } from 'nanoid';
 import { ContactList } from './contactList/ContactList';
 import { ContactForm } from './сontactForm/ContactForm';
-
+// test
 export class App extends Component {
   state = {
     contacts: [
