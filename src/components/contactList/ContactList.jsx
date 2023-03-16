@@ -13,13 +13,13 @@ export class ContactList extends Component {
   }
 }
 
-// ContactList.propTypes = {
-//   submit: PropTypes.objectOf(
-//     PropTypes.shape({
-//       id: PropTypes.string,
-//       name: PropTypes.string,
-//       number: PropTypes.string,
-//     })
-//   ),
-//   deleteF: PropTypes.func,
-// };
+ContactList.propTypes = {
+  submit: PropTypes.objectOf(
+    PropTypes.shape({
+      id: PropTypes.string,
+      name: PropTypes.string,
+      number: PropTypes.string,
+    })
+  ),
+  deleteF: PropTypes.func,
+};

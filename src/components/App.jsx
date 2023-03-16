@@ -55,8 +55,7 @@ export class App extends Component {
   };
 
   render() {
-    const storage = JSON.parse(localStorage.getItem('contacts'));
-    console.log(storage);
+    // const storage = JSON.parse(localStorage.getItem('contacts'));
 
     const filterArr = this.state.contacts.filter(contact => {
       return contact.name
